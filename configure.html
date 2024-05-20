@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Configuration</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+      Tech
+      <br>
+      Talk
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="configure.html">Configure</a></li>
+        <li><a href="tech-news.html">Tech News</a></li>
+        <li><a href="know-your-pc.html">Know Your PC</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Computer Configuration</h1>
+    <br>
+    <form id="configForm">
+      <label for="usage">What will you use the computer for?</label><br>
+      <select id="usage" name="usage">
+        <option value="web-browsing">Web Browsing and Email</option>
+        <option value="office">Office Work (Word processing, Spreadsheets)</option>
+        <option value="media">Watching Movies and Listening to Music</option>
+        <option value="gaming">Gaming</option>
+      </select><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <div id="configResult"></div>
+  </main>
+
+  <footer id="footer">
+    <a href="https://mail.google.com">Contact Us</a>
+  </footer>  
+
+  <script src="configure.js"></script>
+</body>
+</html>
